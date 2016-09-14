@@ -129,9 +129,16 @@ Changes the economics of software delivery`
 - Development costs per program down 78%
 - Resources now driving innovation increased by 5X
 
-Buy Gary's book
+Buy Gary's book TBC.
 
+Lean is not about cutting cost, lean is about removing the wasteful activities
+that you are doing, and that in turn reduces cost.
 
+Improvement kata
+
+Jesse Robbins - don't fight stupid, make more awesome
+
+Lean Enterprise book
 
 ### Products
 - Electric Cloud
