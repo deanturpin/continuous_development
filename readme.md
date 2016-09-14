@@ -6,14 +6,14 @@ Continuous delivery not continuous deployment
 Deployment is OK for a website - deploy trunk - but not for embedded. Delivery is the ability to
 create a release at any point.
 
-## Adopting
+### Adopting
 Organisational, architectural, process
 
 **NOT**
 
 Tools, code, infrastructure
 
-## Takeaways
+### Takeaways
 - Understand why you want to change: what's the business driver? (It's going to
   be painful.)
 - Get measurable change fast, even if reaching your goal takes years
@@ -39,17 +39,32 @@ done all the hard work beforehand.
 
 Change the economics of software delivery.
 
-## Why bother?
+### Why bother?
 Increase quality, reduce cost, improve throughput.
 
 Feedback loops: automated feedback for any change.
 
-## Testing environments
+### Testing environments
 Don't have test environments that are works of art: bear no resemblance to
 production.
 
 If the build is broken for more than ten minutes at a time you're not doing
 continuous integration.
 
-If I don't revert a bad change you're selfishly stopping everybody else from
+### Everyone commits to trunk at least once a day
+- If I don't revert a bad change you're selfishly stopping everybody else from
 working effectively.
+- If you don't want the integration phase this is the only thing that scales.
+
+The whole of Google is in one repo and everybody works on trunk.
+
+Anyone in Google can revert anybody else's change if it's broken.
+
+### Demonstrating features
+- Is this feature in trunk? No, then come back when it is.
+- Are you going to demonstrate the feature by running the automated tests?
+  Automated tests not written? Then come back when they are.
+
+### Products
+- Electric Cloud
+- Electric Commander
