@@ -65,6 +65,23 @@ Anyone in Google can revert anybody else's change if it's broken.
 - Are you going to demonstrate the feature by running the automated tests?
   Automated tests not written? Then come back when they are.
 
+### Engineers
+Engineers - breaking a problem down into small changes that keep trunk
+releasable is a hard mindset change for engineers. Developers just want to sit
+in their cube coding for days on a branch with their headphones on. The whole
+reason people become engineers is so they don't have to talk to other people.
+
+Optimise for how quickly we can get working features to customers not how
+quickly we can have undeployable code "done" on our developer workstations.
+
+W Edwards Demming - statistician, created total quality movement, helped
+Japanese car industry
+
+"Cease dependence on mass inspection to achieve quality. Impreove the process and
+nuild quality into the product in the first place."
+
+The cheapest way to fix a bug is not to commit it in the first place.
+
 ### Products
 - Electric Cloud
 - Electric Commander
