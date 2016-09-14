@@ -82,6 +82,57 @@ nuild quality into the product in the first place."
 
 The cheapest way to fix a bug is not to commit it in the first place.
 
+Nobody has an excuse for not doing automated test.
+
+If you're doing regression testing manually in 2013, all the computers are
+getting together at night and laughing at you.
+
+Testers should be doing: showcases, usability testing, exploratory testing but
+not manual regression testing.
+
+### Deployment pipeline
+- Should be able to get feedback in ten minutes
+- Feature branching is a poor man's componentised architecture, your system is
+  old an monolithic
+
+Deployability and testability are architectural concerns.
+
+Stop the line - prioritise keeping the trunk releasable over doing new work.
+
+Run unit tests in parallel.
+
+Any time we have a broken acceptance test it means we're missing a unit test to
+catch that problem.
+
+As a byproduct of implementing this you get everything you need from an auditing
+point of view.
+
+Every build is a release candidate.
+
+We can only prove that a build is *not* releasable.
+
+Remove integration and testing phase.
+
+Changes the relationship between business and IT
+
+Changes the economics of software delivery`
+
+### How do I know I'm doing it?
+- Software is always releasable on demand (we can take what's on trunk and
+  release it, integration and testing is built it)
+- Prioritise keeping the code releasable over doing new work
+- Anybody can get fast automated feedback on the effect of any change
+
+### ROI
+- Overall development costs reduced by ~40%
+- Programs under development increased by ~140%
+- Development costs per program down 78%
+- Resources now driving innovation increased by 5X
+
+Buy Gary's book
+
+
+
 ### Products
 - Electric Cloud
 - Electric Commander
