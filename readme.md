@@ -1,6 +1,3 @@
-Notes from Jez Humble's 'Continuous Delivery' seminar:
-https://www.youtube.com/watch?v=ZLBhVEo1OG4
-
 Continuous delivery not continuous deployment
 
 Deployment is OK for a website - deploy trunk - but not for embedded. Delivery is the ability to
